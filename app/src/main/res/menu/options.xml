@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id ="@+id/nav_game"
+                android:icon="@drawable/baseline_game_24"
+                android:title="Fluffy Bird Game"/>
+
+            <item
+                android:id ="@+id/nav_observation"
+                android:icon="@drawable/baseline_obs"
+                android:title="Personal Observations"/>
+
+
+        </menu>
+    </item>
+    <item
+    android:id ="@+id/nav_account"
+    android:icon="@drawable/baseline_account_box_24"
+    android:title="Account"/>
+
+    <item
+        android:id ="@+id/nav_settings"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings"/>
+    <item
+        android:id ="@+id/nav_about"
+        android:icon="@drawable/baseline_info_24"
+        android:title="About Us"/>
+
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id ="@+id/nav_logout"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Logout"/>
+
+        </menu>
+    </item>
+</menu>
